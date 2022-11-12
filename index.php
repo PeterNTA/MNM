@@ -2,12 +2,6 @@
 session_start();
 $mod = isset($_GET['act']) ? $_GET['act'] : "home";
 switch ($mod) {
-    case 'sub':
-    require_once('Controllers/subcribe.php');
-    $ct = new Subcribe();
-    $ct->sub();
-    break;
-      break;
     case 'home':
         require_once('Controllers/Home.php');
         $ct = new HomeController();
