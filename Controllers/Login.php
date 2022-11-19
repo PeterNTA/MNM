@@ -42,17 +42,18 @@ class LoginController
         $check2 = 0;
         $data_check = $this->login_model->check_account();
         foreach ($data_check as $value) {
+            
             if ($value['Email'] == $_POST['Email'] || $value['TaiKhoan'] == $_POST['TaiKhoan']) {
                 $check1 = 1;
             }
         }
+
 
         if ($_POST['Matkhau'] != $_POST['check_password']) {
             $check2 = 1;
 
         }
         
-
         $data = array(
             'Ho' =>    $_POST['Ho'],
             'Ten'  =>   $_POST['Ten'],
@@ -65,6 +66,7 @@ class LoginController
             'MaQuyen' =>  '1',
             'TrangThai'  =>  '1',
         );
+
         foreach ($data as $key => $value) {
             if (strpos($value, "'") != false) {
                 $value = str_replace("'", "\'", $value);

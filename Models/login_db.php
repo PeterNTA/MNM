@@ -69,8 +69,10 @@ class Login extends Model
                 $status = $this->conn->query($query);
                 if ($status == true) {
                     setcookie('msg', 'Đăng ký thành công', time() + 2);
+                    echo ("done");
                 } else {
                     setcookie('msg', 'Đăng ký không thành công', time() + 2);
+                    echo ("false!");
                 }
             } else {
                 setcookie('msg', 'Mật khẩu không trùng nhau', time() + 2);

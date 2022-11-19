@@ -62,7 +62,7 @@
 <script src="assets/js/vendor/photoswipe.min.js"></script>
 <script src="assets/js/vendor/photoswipe-ui-default.min.js"></script>
 <!--Instagram Js-->
-<script>u
+<script>
 var userFeed = new Instafeed({
  get: 'user',
  userId: '8983165779',
