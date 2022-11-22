@@ -1,0 +1,19 @@
+.header{
+   
+    text-align: center;
+}
+ads{
+    text-align: center;
+}
+
+.header_child{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    justify-content: space-between;
+}

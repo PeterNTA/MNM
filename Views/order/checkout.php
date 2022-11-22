@@ -10,7 +10,7 @@
         	<div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
                     <div class="customer-box returning-customer">
-                        <h3><i class="icon anm anm-user-al"></i> Returning customer? <a href="#customer-login" id="customer" class="text-white text-decoration-underline" data-toggle="collapse">Click here to login</a></h3>
+                        <!-- <h3><i class="icon anm anm-user-al"></i> Returning customer? <a href="#customer-login" id="customer" class="text-white text-decoration-underline" data-toggle="collapse">Click here to login</a></h3> -->
                         <div id="customer-login" class="collapse customer-content">
                             <div class="customer-info">
                                 <p class="coupon-text">If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing &amp; Shipping section.</p>
