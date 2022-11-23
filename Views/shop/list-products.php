@@ -27,9 +27,9 @@
                     <a  class="btn btn-addto-cart" type="button" href="?act=cart&xuli=add&id=<?=$value['MaSP']?>">Add To Cart</a>
                 </div>
                 <div class="button-set">
-                    <a href="#"  title="Quick View" class="quick-view-popup quick-view" data-toggle="modal" data-target="#content_quickview">
+                    <!-- <a href="#"  title="Quick View" class="quick-view-popup quick-view" data-toggle="modal" data-target="#content_quickview">
                                 <i class="icon anm anm-search-plus-r"></i>
-                            </a>
+                            </a> -->
                     <div class="wishlist-btn">
                         <a class="wishlist add-to-wishlist" href="?act=wishlist&xuli=add&id=<?=$value['MaSP']?>" title="Add to Wishlist">
                             <i class="icon anm anm-heart-l"></i>
