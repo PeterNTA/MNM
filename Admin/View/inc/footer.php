@@ -1,6 +1,5 @@
 <footer class="main-footer">
   <div class="footer-left">
-    <a href="#">Nguyen Si Thien</a></a>
   </div>
   <div class="footer-right">
   </div>
