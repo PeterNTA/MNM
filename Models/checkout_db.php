@@ -35,4 +35,5 @@ class Checkout extends Model
         header('location: ?act=checkout');
     }
   }
+
 }
