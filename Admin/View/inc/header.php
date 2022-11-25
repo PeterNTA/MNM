@@ -124,14 +124,7 @@
                 </div>
               </div>
               <div class="dropdown-list-content dropdown-list-icons">
-                <a href="#" class="dropdown-item dropdown-item-unread"> <span
-                    class="dropdown-item-icon bg-primary text-white"> <i class="fas
-												fa-code"></i>
-                  </span> <span class="dropdown-item-desc"> Template update is
-                    available now! <span class="time">2 Min
-                      Ago</span>
-                  </span>
-                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-info text-white"> <i class="far
+                 <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-info text-white"> <i class="far
 												fa-user"></i>
                   </span> <span class="dropdown-item-desc"> <b>You</b> and <b>Dedik
                       Sugiharto</b> are now friends <span class="time">10 Hours
@@ -150,12 +143,7 @@
                   </span> <span class="dropdown-item-desc"> Low disk space. Let's
                     clean it! <span class="time">17 Hours Ago</span>
                   </span>
-                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-info text-white"> <i class="fas
-												fa-bell"></i>
-                  </span> <span class="dropdown-item-desc"> Welcome to Otika
-                    template! <span class="time">Yesterday</span>
-                  </span>
-                </a>
+                
               </div>
               <div class="dropdown-footer text-center">
                 <a href="#">View All <i class="fas fa-chevron-right"></i></a>
